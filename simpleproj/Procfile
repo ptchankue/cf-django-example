@@ -1,2 +1,0 @@
-web: gunicorn simpleproj.wsgi --workers 2
-

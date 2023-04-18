@@ -1,3 +1,0 @@
-Django==1.6.3
-gunicorn==19.1.1
-

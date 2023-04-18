@@ -1,8 +1,0 @@
----
-applications:
-  - name: simpleproj
-    instances: 1
-    memory: 128M
-    #command: gunicorn micro_statusupdate/micro_statusupdate/wsgi.py --workers 2
-env:
-  STACK: cedar
