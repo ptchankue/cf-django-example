@@ -4,7 +4,7 @@ from django.http.response import HttpResponse
 import json, os
 
 def home(request):
-    s = 'My first django app from cloud foundry'
+    s = 'Django app from cloud foundry'
     if (os.getenv('VCAP_APPLICATION')):
         vcap = os.getenv('VCAP_APPLICATION')
         s += '<br/><br/><h1>VCAP variables</h1>' + vcap
